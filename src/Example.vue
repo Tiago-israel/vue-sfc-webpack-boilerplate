@@ -7,6 +7,7 @@ export default {
   name: "example",
   props: {
     type: {
+      type: String,
       default: "text",
       required: true
     }
